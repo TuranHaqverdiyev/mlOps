@@ -1,7 +1,6 @@
 # mlOps
 
 ![Build Status](https://github.com/TuranHaqverdiyev/mlOps/actions/workflows/ci-build.yaml/badge.svg)
-
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![3.12](https://img.shields.io/badge/Python-3.12-green.svg)](https://shields.io/)
 
@@ -11,26 +10,8 @@ An MLOps project for training and predicting models.
 
 ## Structure
 
----
-
-├── LICENSE
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── uv.lock   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `uv lock > uv.lock`
+```
+├── LICENSE ├── README.md          <- The top-level README for developers using this project. ├── data │   ├── external       <- Data from third party sources. │   ├── interim        <- Intermediate data that has been transformed. │   ├── processed      <- The final, canonical data sets for modeling. │ ├── models             <- Trained and serialized models, model predictions, or model summaries │ ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering), │                         the creator's initials, and a short `-`delimited description, e.g. │                        `1.0-jqp-initial-data-exploration`. │ ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc. │   └── figures        <- Generated graphics and figures to be used in reporting │ ├── uv.lock   <- The requirements file for reproducing the analysis environment, e.g. │                         generated with `uv lock > uv.lock`
 │
 ├── pyptoject.toml    <- makes project uv installable (uv installs) so src can be imported
 ├── src                <- Source code for use in this project.
@@ -49,7 +30,7 @@ An MLOps project for training and predicting models.
 │   │
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
-----------------------------
+```
 
 ## Getting started (uv)
 
@@ -89,7 +70,8 @@ uvx ruff check --fix .
 ```
 
 > Also remove unused imports/variables:
->
+> 
 > ```bash
 > uvx ruff check --fix --unsafe-fixes .
 > ```
+
