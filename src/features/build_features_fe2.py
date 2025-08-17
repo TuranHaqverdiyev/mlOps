@@ -2,7 +2,6 @@ import pandas as pd
 import os
 import joblib
 from sklearn.base import BaseEstimator, TransformerMixin
-from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
