@@ -1,5 +1,6 @@
 def main():
-    print("Transform raw data into features")
+
+    print("Make or download raw data here")
 
 
 if __name__ == "__main__":
